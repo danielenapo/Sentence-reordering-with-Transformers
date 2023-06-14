@@ -38,7 +38,14 @@ Here are some of the most important hyperparameters and their meaning:
 
 **Total trainable parameters: 19,990,034**
 
-# Result
-After computing autoregressive inference for 1000 random test set datapoints, the score was **0.4856412631262165** 
+# Results
+After computing autoregressive inference for 1000 random test set datapoints, the average score was:<br> **0.4856412631262165**.
+
+### Example of prediction
+note: the test shuffled sentence is omitted but it's just random shuffles of the original sentence words
+
+- **test sentence:** _"on august 6 1928 in pittsburgh pennsylvania"_
+- **prediction:** _"pittsburgh pennsylvania on august 6 1928"_
+- **score:** 0.5348837209302325
 
 
