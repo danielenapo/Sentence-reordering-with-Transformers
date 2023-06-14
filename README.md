@@ -18,8 +18,8 @@ If the match is exact, the score is 1.
 - The neural network model should have less than 20M parameters.
 
 # The Model
-For this task, it was implemented a Transformer model, following as much as possible the implementation described in the original paper _"Attention is all you need"_ (Vaswani et al., 2017).<br>
-![image](https://github.com/danielenapo/Sentence-reordering-with-Transformers/assets/33985608/e92492f2-f7b2-482a-89fe-f6346dea61de)
+For this task, it was implemented a Transformer model, following as much as possible the implementation described in the original paper _["Attention is all you need"](https://arxiv.org/pdf/1706.03762.pdf)_ (Vaswani et al., 2017).<br>
+<img src="https://github.com/danielenapo/Sentence-reordering-with-Transformers/assets/33985608/e92492f2-f7b2-482a-89fe-f6346dea61de" height="500"/>
 ## Hyperparameters
 Here are some of the most important hyperparameters and their meaning:
 
