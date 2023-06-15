@@ -5,13 +5,13 @@ The purpose of this project is to take in input a sequence of words correspondin
 In this work, I propose a Transformer model for the task of sentence shuffling, which can generate shuffled sentences that preserve the meaning and grammaticality of the original sentences. I compare the performance of the proposed Transformer model with other alternative methods that use Seq2Seq models or positional vectors.
 
 ## Dataset
-The dataset was taken from a Wikipedia dataset, made of 100k sentences of max 30 words. The vocabulary size is 10k words (the most common in the dataset).<br>
-The processed dataset consists of around 120k ordered sentences.
+The dataset was taken from Hugging Face's Wikipedia dataset _(["20220301.simple"](https://huggingface.co/datasets/wikipedia))_. The processed dataset is made of ~120k sentences of max 30 words. The vocabulary size is 10k words (the most common in the dataset).<br>
 
 ## Metrics
-The quality of the results will be measured according to the following metric:
+Given s the source (original) string and p the prediction, the quality of the results will be measured according to the following metric:
 1. look for the longest substring w between s and p
-2. compute $|w|/max(|s|,|p|)$
+2. compute $\frac{|w|}{max(|s|,|p|)}$
+
 If the match is exact, the score is 1.
 
 ## Constraints
